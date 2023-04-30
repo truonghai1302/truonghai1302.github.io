@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+  <style>
+    /*
+      Removes the default spacing and border for appropriate elements.
+      */
+    blockquote,
+    dl,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    figure,
+    p,
+    pre {
+      margin: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      margin: 32px;
+      font-size: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(14 165 233);
+    }
+
+    .text-sky-500 {
+      color: rgb(14 165 233);
+    }
+
+    .text-red-500 {
+      color: rgb(239 68 68);
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .flex-column {
+      flex-direction: column;
+    }
+
+    .justify-content-between {
+      justify-content: space-between;
+    }
+
+    .max-h-30px {
+      max-height: 30px;
+    }
+
+    .gap-x-2 {
+      column-gap: 0.5rem;
+    }
+
+    .gap-x-4 {
+      column-gap: 1rem;
+    }
+
+    .gap-y-2 {
+      row-gap: 0.5rem;
+    }
+
+    .gap-y-6 {
+      row-gap: 1.5rem;
+    }
+
+    .pb-4 {
+      padding-bottom: 1rem;
+    }
+
+    .pb-6 {
+      padding-bottom: 1.5rem;
+    }
+
+    .text-neutral-500 {
+      color: rgb(115 115 115);
+    }
+
+    .font-normal {
+      font-weight: 400;
+    }
+
+    .basis-3\/6 {
+      flex-basis: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex flex-column gap-y-6">
+    <section class="flex justify-content-between">
+      <div class="flex flex-column">
+        <h2 class="text-red-500">Front-end Engineer</h2>
+        <h1>HAI PHAN</h1>
+      </div>
+      <div class="flex gap-x-4">
+        <div class="flex flex-column">
+          <p>Ho Chi Minh City, Vietnam</p>
+          <a href="mailto:phanlamtruonghai@gmail.com">phanlamtruonghai@gmail.com</a>
+        </div>
+        <div class="flex gap-x-2">
+          <a href="https://github.com/truonghai1302">
+            <img class="max-h-30px" src="./assets/Octicons-mark-github.svg" />
+          </a>
+          <a href="bit.ly/phanlamtruonghai_linkedin">
+            <img class="max-h-30px" src="./assets/linkedin-svgrepo-com.svg" />
+          </a>
+          <a href="bit.ly/phanlamtruonghai_linkedin">
+            <img class="max-h-30px" src="./assets/website-click-svgrepo-com.svg" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="text-red-500 pb-4">Skills</h2>
+      <div class="flex flex-column gap-y-2">
+        <p>
+          <b>Library & Framework:</b>
+          Angular (3 years), Ionic/Capacitor, MeteorJS, StencilJS, Bootstrap, TailwindCSS
+        </p>
+        <p>
+          <b>Addition Skills & Tools:</b>
+          Git, AdobeXD, JIRA, MacOS, Trello, G-Suite
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2 class="text-red-500 pb-4">Experiences</h2>
+      <div class="flex">
+        <div>
+          <h3>
+            <a href="https://www.cloudstormventures.com/">CloudStorm Ventures</a> / Front-end Engineer
+          </h3>
+          <h5 class="text-neutral-500">April 2022 - Present, Ho Chi Minh City</h5>
+          <ul>
+            <li>
+              Implemented new features, maintained and refactored major projects at the company, including <a
+                 href="https://www.mealsuite.com/">MealSuite POS/Touch</a> and <a
+                 href="https://www.edgeauditor.com/">EDGEauditor</a>.
+            </li>
+            <li>
+              Built a hybrid mobile CI/CD pipeline by utilizing Github Actions and Ionic AppFlow to deploy apps to the
+              download site and hosting.
+            </li>
+            <li>Technical uses: Angular10+, Ionic/Capacitor, GoJS,
+              TwilioJS, NGXS, NGRX, etc
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex">
+        <div>
+          <h3>
+            <a href="https://www.monsterpixel.us/">Monster Pixel</a> / Full-stack Engineer
+          </h3>
+          <h5 class="text-neutral-500">April 2021 - April 2022, Ho Chi Minh City</h5>
+          <ul>
+            <li>
+              Initialized, built, and released a new project using Ionic/Capacitor. Also, customized the Capacitor
+              plugin to meet specific requirements. Upgraded, maintained, and implemented new features for the old Admin
+              app.
+            </li>
+            <li>Technical uses: Angular, Ionic/Capacitor, Swift, Java for Hybrid app. MeteorJS, MongoDB for Admin app.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex">
+        <div>
+          <h3>
+            <a href="https://www.nng.com.vn/">NNG Limited Company</a> / Front-end Engineer
+          </h3>
+          <h5 class="text-neutral-500">December 2019 - April 2021, Ho Chi Minh City</h5>
+          <ul>
+            <li>
+              Developed a project based on the XD design. Had weekly meetings with the client to gather requirements.
+            </li>
+            <li>
+              Technical uses: Angular, Ionic/Capacitor, ChartJS, WebSocket, Payment Gateway.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="text-red-500 pb-4">Education</h2>
+      <div class="flex">
+        <div>
+          <h3>
+            <a href="https://hcmute.edu.vn/">HCMUTE University</a> / Bachelor of Technology
+          </h3>
+          <h5 class="text-neutral-500">September 2015 - August 2019, Ho Chi Minh City</h5>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="text-red-500 pb-4">Certificates</h2>
+      <div class="flex">
+        <div class="basis-3/6">
+          <h3> <a href="https://www.hackerrank.com/certificates/019bde151397">Angular (Basic) Certificate</a>
+          </h3>
+          <p>HackerRank</p>
+          <h5 class="text-neutral-500">December 2021</h5>
+        </div>
+        <div class="basis-3/6">
+          <h3><a href="https://www.hackerrank.com/certificates/28e4a545cca7">
+              Angular (Intermediate) Certificate
+            </a>
+          </h3>
+          <p>HackerRank</p>
+          <h5 class="text-neutral-500">December 2021</h5>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
